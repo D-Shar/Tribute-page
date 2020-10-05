@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: url(music.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    }
+
+#container{
+    margin-top: 20%;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+    width: 485px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.7);
+    padding: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+
+}
+
+.first{
+    font-size: 3.7rem;
+    text-align: center;
+}
+
+.second{
+    text-align: center;
+}
+
+.para{
+    color:grey;
+}
+   
